@@ -1,0 +1,49 @@
+body {
+    
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    }
+    
+main {    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 300px;
+    background: url(background.jpg);
+    background-size: cover;
+}
+  
+header{
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+} 
+
+#title {
+    color: #ddd;
+}
+h1, h2, h3 {
+    color:black;
+}
+    
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.card{
+       
+        background-color: gray;
+        padding: 3em;
+        margin-bottom: 20px;
+        box-shadow: 0 0 10px rgba(88, 72, 72, 0.1);
+        margin-left: 8%;
+        margin-right: 8%;
+        border-radius: 20px ;
+
+}
